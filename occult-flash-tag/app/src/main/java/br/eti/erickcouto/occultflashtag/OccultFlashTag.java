@@ -95,6 +95,7 @@ public class OccultFlashTag extends Activity {
 	private int marks;
 	private int accuracy;
 	private int flashDuration;
+	private int flashInterval;
 	private int activeBootCounter;
 
 	private CameraManager mCameraManager;
@@ -141,46 +142,6 @@ public class OccultFlashTag extends Activity {
 		} catch (CameraAccessException e) {
 			e.printStackTrace();
 		}
-
-        String ntp = prefs.getString("ntp_server", null);
-        if (ntp == null){
-            SharedPreferences.Editor ed = prefs.edit();
-            ed.putString("ntp_server", getText(R.string.out_prefs_ntp_server_default).toString());
-            ed.commit();
-        }
-        ntpServer = prefs.getString("ntp_server", null);
-
-		String repetitions = prefs.getString("repetitions", null);
-		if (repetitions == null){
-			SharedPreferences.Editor ed = prefs.edit();
-			ed.putString("repetitions", getText(R.string.out_prefs_repetitions_default).toString());
-			ed.commit();
-		}
-		marks = Integer.valueOf(prefs.getString("repetitions", null));
-
-		String accuracy = prefs.getString("accuracy", null);
-		if (accuracy == null){
-			SharedPreferences.Editor ed = prefs.edit();
-			ed.putString("accuracy", getText(R.string.out_prefs_accuracy_default).toString());
-			ed.commit();
-		}
-		this.accuracy = Integer.valueOf(prefs.getString("accuracy", null));
-
-		String duration = prefs.getString("duration", null);
-		if (duration == null){
-			SharedPreferences.Editor ed = prefs.edit();
-			ed.putString("duration", getText(R.string.out_prefs_flash_duration_default).toString());
-			ed.commit();
-		}
-		this.flashDuration = Integer.valueOf(prefs.getString("duration", null));
-
-		String customNtp = prefs.getString("custom_ntp_server", null);
-		if (customNtp == null){
-			SharedPreferences.Editor ed = prefs.edit();
-			ed.putString("custom_ntp_server", getText(R.string.out_prefs_custom_ntp_server_default).toString());
-			ed.commit();
-		}
-		customNtpServer = prefs.getString("custom_ntp_server", null);
 
 		Integer bootCount = prefs.getInt("boot_count", 0);
 		if (bootCount == 0) {
@@ -241,6 +202,69 @@ public class OccultFlashTag extends Activity {
 
 		carregaDadosAsyncTask.execute();
 		//gpsTimeTask.execute();
+	}
+
+	@Override
+	protected void onStop()
+	{
+		if (timeControl != null)
+			timeControl.removeCallbacksAndMessages(null);
+
+		super.onStop();
+	}
+	@Override
+	protected void onResume() {
+		super.onResume();
+
+		String ntp = prefs.getString("ntp_server", null);
+		if (ntp == null){
+			SharedPreferences.Editor ed = prefs.edit();
+			ed.putString("ntp_server", getText(R.string.out_prefs_ntp_server_default).toString());
+			ed.commit();
+		}
+		ntpServer = prefs.getString("ntp_server", null);
+
+		String accuracy = prefs.getString("accuracy", null);
+		if (accuracy == null){
+			SharedPreferences.Editor ed = prefs.edit();
+			ed.putString("accuracy", getText(R.string.out_prefs_accuracy_default).toString());
+			ed.commit();
+		}
+		this.accuracy = Integer.valueOf(prefs.getString("accuracy", null));
+
+		String customNtp = prefs.getString("custom_ntp_server", null);
+		if (customNtp == null){
+			SharedPreferences.Editor ed = prefs.edit();
+			ed.putString("custom_ntp_server", getText(R.string.out_prefs_custom_ntp_server_default).toString());
+			ed.commit();
+		}
+		customNtpServer = prefs.getString("custom_ntp_server", null);
+
+		String repetitions = prefs.getString("repetitions", null);
+		if (repetitions == null){
+			SharedPreferences.Editor ed = prefs.edit();
+			ed.putString("repetitions", getText(R.string.out_prefs_repetitions_default).toString());
+			ed.commit();
+		}
+		marks = Integer.valueOf(prefs.getString("repetitions", null));
+
+		String duration = prefs.getString("duration", null);
+		if (duration == null){
+			SharedPreferences.Editor ed = prefs.edit();
+			ed.putString("duration", getText(R.string.out_prefs_flash_duration_default).toString());
+			ed.commit();
+		}
+		this.flashDuration = Integer.valueOf(prefs.getString("duration", null));
+
+
+		String interval = prefs.getString("interval", null);
+		if (interval == null){
+			SharedPreferences.Editor ed = prefs.edit();
+			ed.putString("interval", getText(R.string.out_prefs_flash_interval_default).toString());
+			ed.commit();
+		}
+		this.flashInterval = Integer.valueOf(prefs.getString("interval", null));
+
 	}
 
 	private void configureLocationGPS(){
@@ -365,6 +389,9 @@ public class OccultFlashTag extends Activity {
 	public void stop(View v) {
 		if (visualCountdown != null)
 			visualCountdown.cancel();
+
+		timeControl.removeCallbacksAndMessages(null);
+
 		clean(true);
 	}
 
@@ -555,44 +582,69 @@ public class OccultFlashTag extends Activity {
 	private SortedSet<Long> generateCheckpoints(Date currentDate, Long startTime, Long endTime, int marks) {
 
 		SortedSet<Long> checkpoints = new TreeSet<>();
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS ZZZZ");
+
+		//String currentString = sdf.format(currentDate);
+		//String starttimeString = sdf.format(startTime);
 
 		final GregorianCalendar gc = new GregorianCalendar();
 		TimeZone tz = gc.getTimeZone();
 		Long timeZoneDiff = (long) tz.getOffset(currentDate.getTime());
+		//String tzString = sdf.format(timeZoneDiff);
+		//String baseString = sdf.format(gc.getTime());
+
+
+		//gc.setTime(currentDate);
+		//String str = sdf.format(gc.getTime());
+		//gc.set(Calendar.HOUR_OF_DAY, 0);
+		//gc.set(Calendar.MINUTE, 0);
+		//gc.set(Calendar.SECOND, 0);
+		//gc.set(Calendar.MILLISECOND, 0);
+		//Long base = gc.getTimeInMillis();
+		//String baseStringUTC = sdf.format(base);
 
 		gc.setTime(currentDate);
+	//	TimeZone tz0 = TimeZone.getTimeZone("GMT");
+//		gc.setTimeZone(tz0);
+		gc.add(Calendar.SECOND, -(int)(timeZoneDiff/1000));
 		gc.set(Calendar.HOUR_OF_DAY, 0);
 		gc.set(Calendar.MINUTE, 0);
 		gc.set(Calendar.SECOND, 0);
 		gc.set(Calendar.MILLISECOND, 0);
+		Long base2 = gc.getTimeInMillis();
+		//String base2StringUTC = sdf.format(base2);
 
-		Long base = gc.getTimeInMillis();
+		long currentDT = currentDate.getTime();
 
-		if(base + startTime + timeZoneDiff < currentDate.getTime()){ //Significa que o start é amanhã
+		//String sumString = sdf.format(base2 + startTime + timeZoneDiff);
+
+		if(base2 + startTime + timeZoneDiff < currentDT){ //Significa que o start é amanhã
 			gc.add(Calendar.DATE, 1);
-			base = gc.getTimeInMillis();
+			//String sum_minusString = sdf.format(gc.getTime());
+			base2 = gc.getTimeInMillis();
 		}
 
 		long timeAddedInMillis = 0;
 		long maiorValor = 0;
 
 		for(int i=1; i<= marks; i++){
-			maiorValor = base + startTime + timeZoneDiff + timeAddedInMillis;
+			maiorValor = base2 + startTime + timeZoneDiff + timeAddedInMillis;
+			String mString = sdf.format(maiorValor);
 			checkpoints.add(maiorValor);
-			timeAddedInMillis += 2000;
+			timeAddedInMillis += flashInterval;
 		}
 
 		if(endTime != null){
 			timeAddedInMillis = 0;
-			if(base + endTime + timeZoneDiff <= maiorValor){
+			if(base2 + endTime + timeZoneDiff <= maiorValor){
 				gc.add(Calendar.DATE, 1);
-				base = gc.getTimeInMillis();
+				base2 = gc.getTimeInMillis();
 			}
 
 			for(int i=1; i<= marks; i++){
-				maiorValor = base + endTime + timeZoneDiff + timeAddedInMillis;
+				maiorValor = base2 + endTime + timeZoneDiff + timeAddedInMillis;
 				checkpoints.add(maiorValor);
-				timeAddedInMillis += 2000;
+				timeAddedInMillis += flashInterval;
 			}
 		}
 

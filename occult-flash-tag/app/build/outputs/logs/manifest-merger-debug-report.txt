@@ -1,148 +1,321 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:2:1-62:12
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:3:1-71:12
+INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:3:1-71:12
+INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:3:1-71:12
+INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:3:1-71:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\45c82608c515e2fdacededff72f5dd4e\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\e96e8ae62ddc2870e858367d0c57685c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\c9980179e82eae915e478f42ea0df6c5\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\cd0b7b9623fbc140fa664926d48b703f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\00dcb620a51b50236984a23d54b1b06a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\21746c25d279a88414fa0c3d7dbced1b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\07e328fbf3bd0f13514faba5ace35cca\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\143d7a3f28cf05fe4a52aa89dab17410\AndroidManifest.xml:17:1-22:12
+MERGED from [com.flurry.android:analytics:12.0.3] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\analytics-12.0.3.aar\c6b78196717b0757aeee3fca269a00fb\AndroidManifest.xml:3:1-21:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\77e67fd1ee169b9d6263c53f0919a4b6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\15c30e7ea12a99301bafd3b5c106c539\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\3b51ec5c2e5e96287384a0395c5d6bc8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\be6e8b0f3f89fa9d14ca506b6e080e3f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\0240f73cb4b2df6b2dad767a694e853c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\f918ce355a6f264e028acbb554f9ddb2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\e4e40d90f59fd9ec9f4bb0a4b80cd612\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\3f8047ff7db8bcf86a97a9ae32fe19d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\5ef9db21ea4a36359ee34dd32255c5b8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\287fb7e5111fea77c263361afcc6328a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\bf34da5da9ac99a701845fd8b8cc2fc0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\d94997cc69a484512f0fc0bc6c219b41\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\1ed808ecc7a68b74148a78a49eea531f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\51cb842d12b75996f1155817dee8b4e6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\0f2ede903bc0ce37df1adfc4b4f4237a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\e07daad4f4a06e38d217781b770b5292\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c768624c48c721be5ed7c146f71266b9\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\591bd5a7832e33ad9019dbb080827ff2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6cb49735d6476c2109db2a75a0024ca0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\741361ba44f129b5ee73b3018b0b5690\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\724aae96f7045e1c418ab92ca1ba9f09\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\18e98b76539be4196feaded9233be9eb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\365c54b17d4cc2ce022c6c7ad2d5eced\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ca6c12606f04c5ba3589d89170f432fe\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\b26c0a897d2a2edf1b194d6ba5e5398f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\47703f03cedb3ef472207563d06b05f2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\de2196fcb346c7b2746e38fe79290bf2\AndroidManifest.xml:17:1-22:12
+INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:3:1-71:12
+INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:3:1-71:12
+INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:3:1-71:12
 	package
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:3:5-47
-		INJECTED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml
-		INJECTED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:5:5-47
+		INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml
+		INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:5:5-30
-		INJECTED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml
-		INJECTED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml
-	android:versionCode
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml
-		INJECTED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:7:5-30
+		INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml
+		INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:4:5-51
 	xmlns:android
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:3:11-69
+	android:versionCode
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:6:5-29
+		INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml
+		INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml
 uses-sdk
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:7:5-74
-MERGED from [com.android.support:design:23.2.0] /home/erick/.android/build-cache/147c7eb2876d6820ddb34fb4be9ed7352db06081/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.2.0] /home/erick/.android/build-cache/d0482cb257aaef773ca34827efdebf594c2b9f5a/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] /home/erick/.android/build-cache/8cf28f92f5a01e8a55dc2833c405768066191d03/output/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.0] /home/erick/.android/build-cache/e958e40e96a375f6c768c854f6373f63e976ecc8/output/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:recyclerview-v7:23.2.0] /home/erick/.android/build-cache/b92787758945a8dac85997be50ac141396ee90ff/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.1] /home/erick/.android/build-cache/578cfbdedde172d70e1fe2b2c2195d358c06f8cb/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:23.2.0] /home/erick/.android/build-cache/3015f5225aa16a276caee8f1acc616cc6ab1b376/output/AndroidManifest.xml:20:5-43
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.2.0] /home/erick/.android/build-cache/d0482cb257aaef773ca34827efdebf594c2b9f5a/output/AndroidManifest.xml:23:9-75
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:8:5-74
+INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:8:5-74
+INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:8:5-74
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\45c82608c515e2fdacededff72f5dd4e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\45c82608c515e2fdacededff72f5dd4e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\e96e8ae62ddc2870e858367d0c57685c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\e96e8ae62ddc2870e858367d0c57685c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\c9980179e82eae915e478f42ea0df6c5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\c9980179e82eae915e478f42ea0df6c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\cd0b7b9623fbc140fa664926d48b703f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\cd0b7b9623fbc140fa664926d48b703f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\00dcb620a51b50236984a23d54b1b06a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\00dcb620a51b50236984a23d54b1b06a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\21746c25d279a88414fa0c3d7dbced1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\21746c25d279a88414fa0c3d7dbced1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\07e328fbf3bd0f13514faba5ace35cca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\07e328fbf3bd0f13514faba5ace35cca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\143d7a3f28cf05fe4a52aa89dab17410\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\143d7a3f28cf05fe4a52aa89dab17410\AndroidManifest.xml:20:5-44
+MERGED from [com.flurry.android:analytics:12.0.3] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\analytics-12.0.3.aar\c6b78196717b0757aeee3fca269a00fb\AndroidManifest.xml:8:5-10:41
+MERGED from [com.flurry.android:analytics:12.0.3] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\analytics-12.0.3.aar\c6b78196717b0757aeee3fca269a00fb\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\77e67fd1ee169b9d6263c53f0919a4b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\77e67fd1ee169b9d6263c53f0919a4b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\15c30e7ea12a99301bafd3b5c106c539\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\15c30e7ea12a99301bafd3b5c106c539\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\3b51ec5c2e5e96287384a0395c5d6bc8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\3b51ec5c2e5e96287384a0395c5d6bc8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\be6e8b0f3f89fa9d14ca506b6e080e3f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\be6e8b0f3f89fa9d14ca506b6e080e3f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\0240f73cb4b2df6b2dad767a694e853c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\0240f73cb4b2df6b2dad767a694e853c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\f918ce355a6f264e028acbb554f9ddb2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\f918ce355a6f264e028acbb554f9ddb2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\e4e40d90f59fd9ec9f4bb0a4b80cd612\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\e4e40d90f59fd9ec9f4bb0a4b80cd612\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\3f8047ff7db8bcf86a97a9ae32fe19d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\3f8047ff7db8bcf86a97a9ae32fe19d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\5ef9db21ea4a36359ee34dd32255c5b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\5ef9db21ea4a36359ee34dd32255c5b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\287fb7e5111fea77c263361afcc6328a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\287fb7e5111fea77c263361afcc6328a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\bf34da5da9ac99a701845fd8b8cc2fc0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\bf34da5da9ac99a701845fd8b8cc2fc0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\d94997cc69a484512f0fc0bc6c219b41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\d94997cc69a484512f0fc0bc6c219b41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\1ed808ecc7a68b74148a78a49eea531f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\1ed808ecc7a68b74148a78a49eea531f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\51cb842d12b75996f1155817dee8b4e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\51cb842d12b75996f1155817dee8b4e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\0f2ede903bc0ce37df1adfc4b4f4237a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\0f2ede903bc0ce37df1adfc4b4f4237a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\e07daad4f4a06e38d217781b770b5292\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\e07daad4f4a06e38d217781b770b5292\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c768624c48c721be5ed7c146f71266b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c768624c48c721be5ed7c146f71266b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\591bd5a7832e33ad9019dbb080827ff2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\591bd5a7832e33ad9019dbb080827ff2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6cb49735d6476c2109db2a75a0024ca0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6cb49735d6476c2109db2a75a0024ca0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\741361ba44f129b5ee73b3018b0b5690\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\741361ba44f129b5ee73b3018b0b5690\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\724aae96f7045e1c418ab92ca1ba9f09\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\724aae96f7045e1c418ab92ca1ba9f09\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\18e98b76539be4196feaded9233be9eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\18e98b76539be4196feaded9233be9eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\365c54b17d4cc2ce022c6c7ad2d5eced\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\365c54b17d4cc2ce022c6c7ad2d5eced\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ca6c12606f04c5ba3589d89170f432fe\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\ca6c12606f04c5ba3589d89170f432fe\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\b26c0a897d2a2edf1b194d6ba5e5398f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\b26c0a897d2a2edf1b194d6ba5e5398f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\47703f03cedb3ef472207563d06b05f2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\47703f03cedb3ef472207563d06b05f2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\de2196fcb346c7b2746e38fe79290bf2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\de2196fcb346c7b2746e38fe79290bf2\AndroidManifest.xml:20:5-44
+INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:8:5-74
+INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:8:5-74
 	android:targetSdkVersion
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:7:42-71
-		INJECTED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml
-		INJECTED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:8:42-71
+		INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml
+		INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:7:15-41
-		INJECTED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml
-		INJECTED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:9:5-67
-	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:9:22-64
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:8:15-41
+		INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml
+		INJECTED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.CAMERA
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:10:3-62
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:10:3-62
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:10:20-60
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:10:20-60
 uses-permission#android.permission.FLASHLIGHT
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:11:3-66
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:11:3-66
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:11:20-64
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:12:5-79
-	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:12:22-76
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:11:20-64
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:13:5-81
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:13:22-78
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:12:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:14:5-79
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:13:5-78
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:14:22-76
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:14:5-78
+	android:name
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.INTERNET
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:15:5-67
+MERGED from [com.flurry.android:analytics:12.0.3] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\analytics-12.0.3.aar\c6b78196717b0757aeee3fca269a00fb\AndroidManifest.xml:12:5-67
+MERGED from [com.flurry.android:analytics:12.0.3] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\analytics-12.0.3.aar\c6b78196717b0757aeee3fca269a00fb\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:15:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:17:5-88
+	android:name
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:17:22-86
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:18:5-93
+	android:name
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:18:22-91
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:19:5-97
+	android:name
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:19:22-95
+uses-permission#com.google.android.providers.gsf.permission.WRITE_GSERVICES
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:20:5-98
+	android:name
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:20:22-96
+uses-feature#android.hardware.camera
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:22:5-60
+	android:name
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:22:19-57
+uses-feature#android.hardware.camera.flash
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:23:19-63
 application
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:17:3-60:19
-MERGED from [com.android.support:design:23.2.0] /home/erick/.android/build-cache/147c7eb2876d6820ddb34fb4be9ed7352db06081/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.2.0] /home/erick/.android/build-cache/d0482cb257aaef773ca34827efdebf594c2b9f5a/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] /home/erick/.android/build-cache/8cf28f92f5a01e8a55dc2833c405768066191d03/output/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] /home/erick/.android/build-cache/e958e40e96a375f6c768c854f6373f63e976ecc8/output/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.1] /home/erick/.android/build-cache/578cfbdedde172d70e1fe2b2c2195d358c06f8cb/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:23.2.0] /home/erick/.android/build-cache/3015f5225aa16a276caee8f1acc616cc6ab1b376/output/AndroidManifest.xml:22:5-20
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:25:5-69:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\45c82608c515e2fdacededff72f5dd4e\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\45c82608c515e2fdacededff72f5dd4e\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\e96e8ae62ddc2870e858367d0c57685c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\e96e8ae62ddc2870e858367d0c57685c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\c9980179e82eae915e478f42ea0df6c5\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\c9980179e82eae915e478f42ea0df6c5\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\00dcb620a51b50236984a23d54b1b06a\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\00dcb620a51b50236984a23d54b1b06a\AndroidManifest.xml:22:5-20
+MERGED from [com.flurry.android:analytics:12.0.3] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\analytics-12.0.3.aar\c6b78196717b0757aeee3fca269a00fb\AndroidManifest.xml:14:5-19:19
+MERGED from [com.flurry.android:analytics:12.0.3] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\analytics-12.0.3.aar\c6b78196717b0757aeee3fca269a00fb\AndroidManifest.xml:14:5-19:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\e07daad4f4a06e38d217781b770b5292\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\e07daad4f4a06e38d217781b770b5292\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c768624c48c721be5ed7c146f71266b9\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c768624c48c721be5ed7c146f71266b9\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\e07daad4f4a06e38d217781b770b5292\AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:21:9-41
-	android:allowBackup
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:19:9-35
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:29:9-41
 	android:icon
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:20:9-45
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:28:9-45
+	android:allowBackup
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:27:9-35
 	android:theme
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:22:9-40
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:30:9-40
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:18:9-72
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:26:9-72
 activity#br.eti.erickcouto.occultflashtag.OccultFlashTag
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:23:9-32:20
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:32:9-41:20
 	android:screenOrientation
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:26:13-49
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:35:13-49
 	android:label
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:25:13-45
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:34:13-45
 	android:configChanges
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:27:13-74
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:36:13-74
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:24:13-75
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:28:13-31:29
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:33:13-75
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:37:13-40:29
 action#android.intent.action.MAIN
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:29:17-69
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:29:25-66
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:30:17-77
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:30:27-74
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:39:27-74
 activity#br.eti.erickcouto.occultflashtag.SettingsActivity
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:33:9-38:20
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:42:9-47:20
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:34:13-77
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:43:13-77
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:35:13-37:79
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:44:13-46:79
 	android:value
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:37:13-76
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:46:13-76
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:36:13-59
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:45:13-59
 activity#br.eti.erickcouto.occultflashtag.EventActivity
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:40:9-82
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:49:9-82
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:40:19-80
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:49:19-80
 activity#br.eti.erickcouto.occultflashtag.DetailsActivity
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:41:9-84
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:50:9-84
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:41:19-82
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:50:19-82
 service#br.eti.erickcouto.occultflashtag.NtpService
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:43:9-79
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:52:9-79
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:43:18-76
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:52:18-76
 receiver#br.eti.erickcouto.occultflashtag.BootUpReceiver
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:45:9-51:20
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:54:9-60:20
 	android:enabled
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:45:19-41
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:54:19-41
 	android:permission
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:46:13-75
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:55:13-75
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:45:42-72
-intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.DEFAULT
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:47:13-50:29
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:54:42-72
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.DEFAULT
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:56:13-59:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:48:17-79
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:57:17-79
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:48:25-76
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:57:25-76
 category#android.intent.category.DEFAULT
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:49:17-76
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:58:17-76
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:49:27-73
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:58:27-73
 receiver#br.eti.erickcouto.occultflashtag.NetworkReceiver
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:53:9-58:20
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:62:9-67:20
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:54:13-44
-intent-filter#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:55:13-57:29
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:63:13-44
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:64:13-66:29
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:56:17-79
+ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:65:17-79
 	android:name
-		ADDED from /home/erick/AndroidStudioProjects/occult-flash-tag/occult-flash-tag/app/src/main/AndroidManifest.xml:56:25-76
+		ADDED from X:\GitHubStorage\occult-flash-tag\occult-flash-tag\app\src\main\AndroidManifest.xml:65:25-76
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\45c82608c515e2fdacededff72f5dd4e\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\45c82608c515e2fdacededff72f5dd4e\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\45c82608c515e2fdacededff72f5dd4e\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\45c82608c515e2fdacededff72f5dd4e\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\c9980179e82eae915e478f42ea0df6c5\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\c9980179e82eae915e478f42ea0df6c5\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\c9980179e82eae915e478f42ea0df6c5\AndroidManifest.xml:24:13-58
+provider#com.flurry.android.agent.FlurryContentProvider
+ADDED from [com.flurry.android:analytics:12.0.3] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\analytics-12.0.3.aar\c6b78196717b0757aeee3fca269a00fb\AndroidManifest.xml:15:9-18:40
+	android:authorities
+		ADDED from [com.flurry.android:analytics:12.0.3] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\analytics-12.0.3.aar\c6b78196717b0757aeee3fca269a00fb\AndroidManifest.xml:17:13-73
+	android:exported
+		ADDED from [com.flurry.android:analytics:12.0.3] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\analytics-12.0.3.aar\c6b78196717b0757aeee3fca269a00fb\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [com.flurry.android:analytics:12.0.3] C:\Users\flyeye\.gradle\caches\transforms-1\files-1.1\analytics-12.0.3.aar\c6b78196717b0757aeee3fca269a00fb\AndroidManifest.xml:16:13-74

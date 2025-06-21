@@ -18,6 +18,8 @@ public enum ENtpServer implements Serializable {
 	AFR01 ("za.pool.ntp.org"),
 	SPA01 ("es.pool.ntp.org"),										        		
 	USA01 ("us.pool.ntp.org"),
+
+	RUS01 ("ntp2.vniiftri.ru"),
 	CUSTO (null);
 	
 	private String server;
@@ -75,6 +77,8 @@ public enum ENtpServer implements Serializable {
 			server = ENtpServer.AFR01;
 		}else if ("SPA01".equals(code)){
 			server = ENtpServer.SPA01;
+		}else if ("RUS01".equals(code)){
+			server = ENtpServer.RUS01;
 		}
 
 		return server;

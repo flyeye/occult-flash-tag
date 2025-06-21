@@ -1,0 +1,5 @@
+occult-flash-tag/.gradle/5.6.4/fileChanges/last-build.bin
+*.bin
+*.lock
+/occult-flash-tag/app/build/intermediates
+/occult-flash-tag/app/build/generated/not_namespaced_r_class_sources

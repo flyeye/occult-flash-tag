@@ -2,6 +2,7 @@ package br.eti.erickcouto.occultflashtag;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.preference.EditTextPreference;
 import android.preference.ListPreference;
 import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
@@ -28,4 +29,10 @@ public class SettingsActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+    }
 }

@@ -53,12 +53,13 @@
 	<string name="out_prefs_accuracy_default">7</string>
 	<string name="out_prefs_flash_duration">Flash Duration (ms)</string>
 	<string name="out_prefs_flash_duration_default">100</string>
-
-    <string name="out_prefs_video_format">Video Format</string>
+	<string name="out_prefs_flash_interval">Flash interval (ms)</string>
+	<string name="out_prefs_flash_interval_default">2000</string>
+	<string name="out_prefs_video_format">Video Format</string>
     <string name="out_prefs_video_format_default">33</string>
     <string name="out_prefs_integration_rate">Integration Rate</string>
     <string name="out_prefs_integration_rate_default">1</string>
-    
+
     <string-array name="ntp_servers">
 		<item>ARGENTINA - NTP.ORG</item>
 		<item>AUSTRALIA - NTP.ORG</item>
@@ -75,6 +76,7 @@
 		<item>SOUTH AFRICA - NTP.ORG</item>
 		<item>SPAIN - NTP.ORG</item>										        		
 		<item>USA - NTP.ORG</item>
+		<item>RUS - VNIIFTRI</item>
 		<item>CUSTOM...</item>
     </string-array>
 
@@ -94,6 +96,7 @@
 		<item>AFR01</item>
 		<item>SPA01</item>										        		
 		<item>USA01</item>
+		<item>RUS01</item>
 		<item></item>
     </string-array>
 
@@ -124,10 +127,6 @@
 		<item>2000</item>
 		<item>5000</item>
 	</string-array>
-
-
-
-
 
 	<string-array name="video_format">
 		<item>NTSC - 29.97 fps</item>
@@ -167,12 +166,16 @@
 		<item>1</item>
 		<item>2</item>
 		<item>3</item>
+		<item>5</item>
+		<item>10</item>
 	</string-array>
 
 	<string-array name="repetitions_values">
 		<item>1</item>
 		<item>2</item>
 		<item>3</item>
+		<item>5</item>
+		<item>10</item>
 	</string-array>
 
 
