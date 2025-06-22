@@ -17,8 +17,6 @@ package br.eti.erickcouto.occultflashtag;
  */
 
 import android.annotation.TargetApi;
-import android.app.Activity;
-import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -27,6 +25,9 @@ import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import androidx.core.view.MenuItemCompat;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -43,7 +44,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.TimeZone;
 
-public class DetailsActivity extends Activity {
+public class DetailsActivity extends AppCompatActivity {
 
     private ProgressDialog progressDialog;
     private Long eventId = null;
@@ -89,9 +90,8 @@ public class DetailsActivity extends Activity {
         Event e = da.getEvent(eventId.toString());
 
         if(e.getSynced()){
-
             if(e.getStatus() == null || (e.getStatus() != null && !e.getStatus().equals("ER")) ) {
-                switchAB = (Switch) menu.findItem(R.id.switchId).getActionView().findViewById(R.id.switchAB);
+                switchAB = (Switch) MenuItemCompat.getActionView(menu.findItem(R.id.switchId)).findViewById(R.id.switchAB);
                 switchAB.setChecked(e.getStatus() == null ? false : e.getStatus().equals("PR") ? true : false);
 
                 switchAB.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -110,7 +110,7 @@ public class DetailsActivity extends Activity {
             }
 
         } else {
-            switchAB = (Switch)menu.findItem(R.id.switchId).getActionView().findViewById(R.id.switchAB);
+            switchAB = (Switch) MenuItemCompat.getActionView(menu.findItem(R.id.switchId)).findViewById(R.id.switchAB);
             switchAB.setVisibility(View.GONE);
         }
 
@@ -123,6 +123,7 @@ public class DetailsActivity extends Activity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
         switch (item.getItemId()) {
             case R.id.event_delete:
                 AlertDialog diaBox = AskOption();
@@ -144,7 +145,7 @@ public class DetailsActivity extends Activity {
 
     private AlertDialog AskOption()
     {
-        AlertDialog myQuittingDialogBox =new AlertDialog.Builder(this, AlertDialog.THEME_DEVICE_DEFAULT_DARK)
+        AlertDialog myQuittingDialogBox =new AlertDialog.Builder(this,  android.R.style.Theme_DeviceDefault_Dialog_Alert)
                 .setTitle("Delete")
                 .setMessage("Do you want to continue? \nThis operation cannot be undone and will lost all event marks!")
                 .setPositiveButton("Delete", new DialogInterface.OnClickListener() {

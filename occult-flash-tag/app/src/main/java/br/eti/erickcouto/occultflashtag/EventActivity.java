@@ -16,7 +16,6 @@ package br.eti.erickcouto.occultflashtag;
  * limitations under the License.
  */
 
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -24,8 +23,9 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -37,7 +37,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EventActivity extends Activity {
+public class EventActivity extends AppCompatActivity {
 
     private ProgressDialog progressDialog;
     private EventAdapter mAdapter;

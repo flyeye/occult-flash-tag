@@ -1,4 +1,5 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -145,7 +146,7 @@
 
 			<ImageButton
 				android:id="@+id/btn_estimated_utc1"
-				android:src="@drawable/clock"
+				app:srcCompat="@drawable/clock"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:onClick="showUTC1Dialog"
@@ -191,7 +192,7 @@
 
 			<ImageButton
 			android:id="@+id/btn_estimated_utc2"
-			android:src="@drawable/clock"
+			app:srcCompat="@drawable/clock"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:onClick="showUTC2Dialog"

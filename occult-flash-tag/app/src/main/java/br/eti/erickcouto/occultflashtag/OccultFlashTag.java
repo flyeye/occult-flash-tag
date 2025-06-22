@@ -16,35 +16,20 @@ package br.eti.erickcouto.occultflashtag;
  * limitations under the License.
  */
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.Locale;
-import java.util.Map;
-import java.util.SortedSet;
-import java.util.TimeZone;
-import java.util.TreeSet;
-
 import android.Manifest;
-import android.annotation.TargetApi;
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.DialogFragment;
+//import android.app.DialogFragment;
+import androidx.fragment.app.DialogFragment;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.hardware.camera2.CameraAccessException;
+import android.hardware.camera2.CameraManager;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
-import android.media.MediaPlayer;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -52,9 +37,10 @@ import android.os.CountDownTimer;
 import android.os.Handler;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -67,12 +53,20 @@ import android.widget.LinearLayout;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.hardware.camera2.CameraAccessException;
-import android.hardware.camera2.CameraManager;
 
-import com.flurry.android.FlurryAgent;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.SortedSet;
+import java.util.TimeZone;
+import java.util.TreeSet;
 
-public class OccultFlashTag extends Activity {
+
+public class OccultFlashTag extends AppCompatActivity {
 
 	private static final int TWO_MINUTES = 1000 * 60 * 2;
 	private static final String BREAK_LINE = "\n";
@@ -104,10 +98,6 @@ public class OccultFlashTag extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		new FlurryAgent.Builder()
-				.withLogLevel(Log.VERBOSE)
-				.withLogEnabled(true)
-				.build(this, "FSBDJT3SGGHWPXMDWXSF");
 
 		setContentView(R.layout.occult_flash_tag);
 	    getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
@@ -320,12 +310,12 @@ public class OccultFlashTag extends Activity {
 
 	public void showUTC1Dialog(View v) {
 		DialogFragment newFragment = new TimePickerFragment(true);
-		newFragment.show(this.getFragmentManager(), "UTC1");
+		newFragment.show(this.getSupportFragmentManager(), "UTC1");
 	}
 
 	public void showUTC2Dialog(View v) {
 		DialogFragment newFragment = new TimePickerFragment(false);
-		newFragment.show(this.getFragmentManager(), "UTC2");
+		newFragment.show(this.getSupportFragmentManager(), "UTC2");
 	}
 
 	public void start(View v) {
@@ -359,7 +349,6 @@ public class OccultFlashTag extends Activity {
 
 			Map<String, String> log = new HashMap<String, String>();
 			log.put("Time 1", appData.getTimeForStart().toString());
-			FlurryAgent.logEvent("Start", log);
 		}
 
 
