@@ -22,6 +22,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -64,7 +65,18 @@ public class EventActivity extends AppCompatActivity {
         recList.setLayoutManager(llm);
 
         IntentFilter intentFilter = new IntentFilter("br.eti.erickcouto.occultflashtag.statuschange");
-        registerReceiver(messageReceiver, intentFilter);
+        //registerReceiver(messageReceiver, intentFilter, RECEIVER_NOT_EXPORTED);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            super.registerReceiver(messageReceiver, intentFilter, Context.RECEIVER_EXPORTED);
+        } else {
+            super.registerReceiver(messageReceiver, intentFilter);
+        }
+        /*if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            registerReceiver(messageReceiver, intentFilter, RECEIVER_NOT_EXPORTED);
+        } else {
+            @Suppress("UnspecifiedRegisterReceiverFlag");
+            registerReceiver(messageReceiver, intentFilter);
+        }*/
 
         // load the animation
         Animation animFlash = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.flash);

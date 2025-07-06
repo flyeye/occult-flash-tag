@@ -293,13 +293,15 @@ public class OccultFlashTag extends AppCompatActivity {
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 	    switch (item.getItemId()) {
-	        case R.id.action_list:
+	        case R.id.action_list:{
 			    Intent intent = new Intent(this, EventActivity.class);
                 startActivity(intent);
-	        	return true;
-	        case R.id.action_settings:
-	        	startActivity(new Intent(getApplicationContext(), SettingsActivity.class));
-	            return true;
+	        	return true;}
+	        case R.id.action_settings:{
+				Intent intent = new Intent(this, SettingsActivity.class);
+				startActivity(intent);
+	        	//startActivity(new Intent(getApplicationContext(), SettingsActivity.class));
+	            return true;}
 	        case R.id.action_about:
 	        	showAbout();
 	            return true;

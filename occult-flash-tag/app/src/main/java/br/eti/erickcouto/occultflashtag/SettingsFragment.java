@@ -4,15 +4,25 @@ import android.annotation.SuppressLint;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
-import android.preference.EditTextPreference;
-import android.preference.Preference;
-import android.preference.PreferenceFragment;
+//import android.preference.EditTextPreference;
+//import android.preference.Preference;
+//import android.preference.PreferenceFragment;
 
-public class SettingsFragment extends PreferenceFragment  {
+import androidx.annotation.Nullable;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowCompat;
+import androidx.core.view.WindowInsetsCompat;
+import androidx.preference.EditTextPreference;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceFragmentCompat;
+
+public class SettingsFragment extends PreferenceFragmentCompat  {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.preferences);
+
+        //addPreferencesFromResource(R.xml.preferences);
 
         EditTextPreference editText = (EditTextPreference) this.findPreference("interval");
         editText.setSummary(editText.getText());
@@ -30,7 +40,22 @@ public class SettingsFragment extends PreferenceFragment  {
                     }
         );
 
+//        ViewCompat.setOnApplyWindowInsetsListener(getActivity().findViewById(R.id.pref_fragment), (v, insets) -> {
+//            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+//            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+//
+////            WindowCompat.getInsetsController(getActivity().getWindow(), getActivity().getWindow().getDecorView())
+////                    .setAppearanceLightStatusBars(true);
+//
+//            return insets;
+//        });
 
+
+    }
+
+    @Override
+    public void onCreatePreferences(@Nullable Bundle savedInstanceState, @Nullable String rootKey) {
+        setPreferencesFromResource(R.xml.preferences, rootKey);
     }
 
 }
