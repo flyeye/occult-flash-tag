@@ -3,8 +3,8 @@
 
     <string name="app_name">Occult Flash Tag</string>
     <string name="app_description">Use phone\'s flash to mark videos with high accuracy (milliseconds)</string>
-    <string name="app_credits">Developed by Erick Couto under Apache 2.0 License. Full source code available on https://github.com/erick-couto/occult-flash-tag</string>
-    <string name="app_use">Special Thanks to teams IOTA, REA, BRAMON, AstroARA and NGC-51. Individual thanks to Tony George, Dave Gault and Breno Giacchini.</string>
+    <string name="app_credits">Developed by Erick Couto under Apache 2.0 License. Full source code available on https://github.com/erick-couto/occult-flash-tag\nThis version has some fixes and improvements implemented by Alexey V. Popov.\n\nThe user manual created by Ferran Casarramona can be accessed at https://docs.google.com/document/u/0/d/1L0BqCerkiIj9rdZIBwvMswyd7liEeD65vDtX-Xa6Mok</string>
+    <string name="app_use">Special Thanks to teams IOTA, REA, BRAMON, AstroARA and NGC-51. Individual thanks to Tony George, Dave Gault, Breno Giacchini and Felipe Braga Ribas.</string>
     <string name="out_body_1">Body 1</string>
     <string name="out_body_2">Body 2</string>
     <string name="out_occult">occult</string>
