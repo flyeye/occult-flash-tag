@@ -18,6 +18,7 @@ public class SettingsActivity extends AppCompatActivity {
 
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_settings_nuew);
+        WindowCompat.setDecorFitsSystemWindows(getWindow(), true);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.setting_activity), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
